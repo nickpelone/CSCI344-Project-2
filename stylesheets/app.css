@@ -1,13 +1,21 @@
 body{
   background:black;
   color:white;
+  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto Condensed', sans-serif;*/
 }
 #content{
   
 }
 #welcome{
+  color:white;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align:center;
   
 }
 #searcher{
   
+}
+.bigText{
+  font-size:300%;
 }
