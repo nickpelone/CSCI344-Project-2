@@ -25,34 +25,3 @@ ui,li{
 #resetButtonArea{
   text-align:right;
 }
-
-/* Sticky Footer from Twitter Bootstrap - by Martin Bean and Ryan Fait
-http://twitter.github.com/bootstrap/examples/sticky-footer.html
-
-Also includes slight modification by myself*/ 
- html,
-      body {
-        height: 100%;
-        font-family: 'Roboto', sans-serif; 
-        /* The html and body elements cannot have any padding or margin. */
-      }
-
-      /* Wrapper for page content to push down footer */
-      #wrap {
-        min-height: 97%;
-        height: auto !important;
-        height: 100%;
-        /* Negative indent footer by it's height */
-        margin: 0 auto -30px;
-      }
-
-      /* Set the fixed height of the footer here */
-      #push,
-      #footer {
-        height: 30px;
-        padding-bottom:-10px;
-      }
-      #footer {
-        background-color: #f5f5f5;
-        
-      }

@@ -7,7 +7,6 @@
     //we will take the value and search through twitter with it
     $("#go").click(function () {
       userInput = $("#searchBox").val();
-      $("#footer").fadeIn(2000);
       //now lets set up a CTwitter
       $("h1:first").hide("fold", {}, 1000);
       $("#searcher").append("<div id='searchResults' style='display:none;'><p id='pleaseWait'>Please wait, results are incoming...</p><ul id='resultsList'></ul></div>");
@@ -19,7 +18,8 @@
           console.log(tweet.text);
           $("#pleaseWait").fadeOut(1000);
           $("#resultsList").prepend("<li>" + tweet.text + "</li>");
-          $("li").eq(9).hide(400);
+          $("li").eq(29).fadeOut(400);
+          $("#reset").fadeIn(1000);
         });
       });
     });
